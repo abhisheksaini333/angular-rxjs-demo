@@ -1,0 +1,8 @@
+<button (click)="getTodos()">Get Todos</button>
+
+
+<ul>
+    <li *ngFor="let todo of listOfTodos">
+        {{ todo | json }}
+    </li>
+</ul>
